@@ -1,4 +1,31 @@
-# Soil-moisture-Monitoring-using-arduino-sensors-with-machine-learning
-(Team member : Somraj Paul( https://www.linkedin.com/in/somraj-paul-b65b25158 ), Soham Roy ( https://www.linkedin.com/in/soham-roy-a9b860144 ), Biswajit Nayak ( https://www.linkedin.com/in/biswajit-nayak-510798146 ))
-Arduino based soil moisture sensor, Arduino UNO and DST22 sensor are used in this project. At first the model was build to collect relevant data of the project ,
-After that Machine learning algorithm is used to predict the moisture of the field without using soil moisture sensors.
+# 🌱 SoilSense – Soil Moisture Prediction using Machine Learning
+
+SoilSense is a machine learning-based web application that predicts soil moisture levels using environmental data such as temperature, humidity, and rainfall. This tool is designed to assist farmers and researchers in optimizing irrigation strategies and monitoring soil conditions without requiring physical soil sensors.
+
+---
+
+## 🚀 Features
+
+- 📊 Predict soil moisture percentage using real-world environmental data  
+- 🧠 Trained with supervised ML models (e.g., Linear Regression, Decision Tree, Random Forest)  
+- 📈 Visualize predictions and comparison charts  
+- 🌐 Simple and responsive user interface  
+- 💡 Can be integrated with IoT systems or agricultural dashboards  
+
+---
+
+## 🧰 Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript (or Streamlit for fast prototyping)  
+- **Backend / ML**: Python, Pandas, NumPy, Scikit-Learn, Matplotlib  
+- **Model**: Regression-based algorithms for continuous prediction  
+- **Deployment**: Streamlit Share / Flask (optional), GitHub Pages (if frontend only)  
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/jashwanthnani/soilsense.git
+   cd soilsense
